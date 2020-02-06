@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="assets/styles/inline.css">
   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
   <title>Deals PWA</title>
-  <link rel="manifest" href="assets/scripts/manifest.json">
+  <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Weather PWA">
@@ -32,7 +32,7 @@
      // CODELAB: Register service worker.
      if ('serviceWorker' in navigator) {
        window.addEventListener('load', () => {
-         navigator.serviceWorker.register('assets/scripts/service-worker.js')
+         navigator.serviceWorker.register('service-worker.js')
              .then((reg) => {
                console.log('Service worker registered.', reg);
              });
