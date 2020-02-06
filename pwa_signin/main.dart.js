@@ -45046,7 +45046,7 @@ q=P.k
 o=new H.dg([q,null])
 o.m(0,"grantType","client_credentials")
 u=3
-return P.aa(r.r.je("POST","https://www1.qa.mcdonalds.com/pwa/api/account/token/",P.aI(["authorization",p,"Access-Control-Allow-Origin","*"],q,q),o,null),$async$mZ)
+return P.aa(r.r.je("POST","https://www1.development.mcdonalds.com/pwa/api/account/token/",P.aI(["authorization",p,"Access-Control-Allow-Origin","*"],q,q),o,null),$async$mZ)
 case 3:n=b
 q=n.e
 m=B.yM(U.yG(q).c.a.i(0,"charset"))
@@ -45069,7 +45069,7 @@ i=C.c
 u=4
 return P.aa(r.mZ(),$async$kF)
 case 4:u=3
-return P.aa(k.je("POST","https://www1.qa.mcdonalds.com/pwa/api/account/login/",j.aI(["authorization",i.M("Bearer ",b),"cache-control","no-cache","content-type","application/json","accept-language","en-US","accept","application/json","mcd-sourceapp","GMA","mcd-marketid","US","mcd-uuid","f3bc4ebd-32e5-4dc8-a8c2-feb8932a3300","Access-Control-Allow-Origin","*"],n,n),C.au.f4(m),null),$async$kF)
+return P.aa(k.je("POST","https://www1.development.mcdonalds.com/pwa/api/account/login/",j.aI(["authorization",i.M("Bearer ",b),"cache-control","no-cache","content-type","application/json","accept-language","en-US","accept","application/json","mcd-sourceapp","GMA","mcd-marketid","US","mcd-uuid","f3bc4ebd-32e5-4dc8-a8c2-feb8932a3300","Access-Control-Allow-Origin","*"],n,n),C.au.f4(m),null),$async$kF)
 case 3:l=b
 n=l.e
 q=B.yM(U.yG(n).c.a.i(0,"charset"))
